@@ -4,7 +4,7 @@
 	</head>
 	<body>
 		<a href="index.html"><img src="images/store_images/attack_on_titan_logo.jpg" height="75" align="right"></img></a>
-		<form class action="mailto:overjoy28@gmail.com" method="POST">
+		<form class action="mailto:overjoy28@gmail.com" method="POST" enctype="text/plain">
 			<table>
 				<tbody>
 					<tr>
@@ -25,7 +25,7 @@
 											<label><strong>Last Name</strong></label>
 										</td>
 										<td>
-											<input type="text" required name="Last Name" >
+											<input type="text" required name="Last Name">
 										</td>
 									</tr>
 									<tr>
@@ -57,7 +57,7 @@
 											<label><strong>Contact No.</strong></label>
 										</td>
 										<td>
-											<input type="number" required name="Contact No.">
+											<input type="number" required name="Contact Number">
 										</td>
 									</tr>
 									<tr>
@@ -65,7 +65,7 @@
 											<label><strong>Additional<br>Information</strong></label>
 										</td>
 										<td>
-											<textarea name="Customer's Additional Note: " cols="20" rows="5"> </textarea>
+											<textarea name="Customer's Additional Note(s)" cols="20" rows="5"> </textarea>
 										</td>
 									</tr>
 									<tr>
@@ -73,9 +73,9 @@
 											<label><strong>Payment</strong></label>
 										</td>
 										<td>
-											<input type="radio" name="payment" required><strong>Cash on Delivery</strong><br>
-											<input type="radio" name="payment"><strong>Bank Deposit</strong><br>
-											<input type="radio" name="payment"><strong> G-Cash</strong><br>
+											<input type="radio" name="payment" value="Cash on Delivery" required><strong>Cash on Delivery</strong><br>
+											<input type="radio" name="payment" value="Bank Deposit"><strong>Bank Deposit</strong><br>
+											<input type="radio" name="payment" value="G-Cash"><strong>G-Cash</strong><br>
 										</td>
 									</tr>
 									<tr>
