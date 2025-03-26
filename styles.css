@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'AttackOnTitan';
+	src: url('fonts/ditty.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'LexendDeca';
+	src: url('fonts/LexendDeca-VariableFont_wght.ttf') format('truetype');
+}
+body{
+	background-image: url('images/background-image.png');
+	color: white;
+	font-family: AttackOnTitan;
+}
